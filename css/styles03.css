@@ -1,0 +1,558 @@
+/* 
+CSS BY SHAI WILSON 2015
+SJWILSON2@USFCA.EDU
+--------------------------------------
+CONTACT AT SJWILSON2@USFCA.EDU
+*/
+
+
+
+/* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic); 
+/* ==========================================================================
+HTML5 display definitions
+========================================================================== */
+ 
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; height: 0; }
+[hidden] { display: none; }
+
+
+
+/* ==========================================================================
+Base
+========================================================================== */
+
+html { 
+font-size: 100%; 
+-webkit-text-size-adjust: 100%; 
+-ms-text-size-adjust: 100%; 
+height: 100%;
+}
+
+body { 
+font-family: 'Lato', Calibri, Arial, sans-serif;
+width: auto; 
+overflow-x: hidden;
+
+/* GRADIENT BACKGROUND */
+background: -webkit-linear-gradient(90deg, #CC8166 10%, #00223E 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #CC8166 10%, #00223E 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #CC8166 10%, #00223E 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #CC8166 10%, #00223E 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #CC8166 10%, #00223E 90%); /* W3C */
+  
+}
+
+	
+/* ==========================================================================
+Links
+========================================================================== */
+
+ 
+a {
+text-decoration: none;
+}
+
+a:active, a:hover { 
+outline: 0;
+}
+
+/* ==========================================================================
+Typography
+========================================================================== */
+ 
+ 
+h1 { 
+font-size: 2em; 
+margin: 0.67em 0; 
+}
+
+h2 { 
+font-size: 1.5em; 
+margin: 0.83em 0; 
+}
+
+h3 { 
+color: #000;
+font-size: 1.17em; 
+margin: 1em 0; 
+}
+
+h4 { 
+font-size: 1em; 
+margin: 1.33em 0; 
+}
+
+h5 { 
+font-size: 0.83em; 
+margin: 1.67em 0; 
+}
+
+h6 { 
+font-size: 0.75em; 
+margin: 2.33em 0; 
+}
+
+b, strong { 
+font-weight: bold; 
+}
+
+
+p, pre { 
+margin: 1em 0; 
+}
+
+
+
+
+/* ==========================================================================
+Lists
+========================================================================== */
+
+ 
+dl, menu, ol, ul { 
+margin: 1em 0; 
+list-style: none;
+}
+
+
+menu, ol, ul { 
+padding: 0 0 0 40px; 
+}
+
+/* ==========================================================================
+Embedded content -- HTML VIDEO
+========================================================================== */
+
+
+
+
+/* ==========================================================================
+Figures
+========================================================================== */
+
+ 
+figure { 
+margin: 0; 
+}
+
+/* ==========================================================================
+Tables
+========================================================================== */
+
+ 
+table { 
+border-collapse: collapse; 
+border-spacing: 0; 
+}
+
+
+/* ==========================================================================
+Gallery Text
+========================================================================== */
+h1.chain { 
+text-align: center; 
+text-transform: uppercase; 
+color: #353738; 
+letter-spacing: 2px; 
+font-size: 18px; 
+font-weight: 600; 
+background: url(../img/divider_PPIE.jpg) no-repeat top center; 
+padding-top: 75px; 
+}
+
+/* gallery text */
+h2.frame { 
+text-align: center; 
+text-transform: uppercase; 
+color: #8D9396; 
+letter-spacing: 2px; 
+font-size: 18px; 
+font-weight: 600;  
+padding-top: 65px; 
+margin-top: 70px; 
+}
+
+
+h2.mech { 
+text-align: center; 
+text-transform: uppercase; 
+color: #8D9396; 
+letter-spacing: 2px; 
+font-size: 18px; 
+font-weight: 600; 
+background: url() no-repeat top center; 
+padding-top: 65px; 
+margin-top: 70px; 
+}
+
+h2.front-frame { 
+text-align: center; 
+text-transform: uppercase; 
+color: #8D9396; 
+letter-spacing: 2px; 
+font-size: 18px; 
+font-weight: 600; 
+background: url() no-repeat top center; 
+padding-top: 65px; 
+margin-top: 70px; 
+}
+
+h2.twitter-post-username { 
+color: #8D9396; 
+letter-spacing: 2px; 
+font-size: 18px; 
+font-weight: 600; 
+margin-top: 30px; 
+}
+
+h2.twitter-post-username span { 
+color: #8D9396; 
+font-weight: 300; 
+}
+
+/* ==========================================================================
+typography
+========================================================================== */
+a { 
+color: #282f35; 
+-webkit-transition: all .25s ease; 
+-moz-transition: all .25s ease; 
+-ms-transition: all .25s ease; 
+-o-transition: all .25s ease; 
+transition: all .25s ease; 
+}
+
+a:hover { 
+color: #000; 
+text-decoration: none; 
+}
+
+p { 
+text-align: center; 
+font-size: 14px; 
+color: #848789; 
+font-weight: 300; 
+word-spacing: 2px; 
+line-height: 1.8em; 
+margin-top: 25px; 
+}
+
+p.text-intro { 
+font-size: 14px; 
+padding: 50px;
+width: 90%;
+max-width: 768px;
+margin: 0 auto;
+padding: 2em 0;
+}
+
+.hero { 
+/* page 01 WORLD MAP */
+background: url(../img/bg03.jpg) no-repeat top center #fff;
+background-color: #fff;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 685px;
+}
+
+.intro { 
+padding: 10px 0; 
+background-color: #FFF; 
+}
+
+
+/* palace of horticulture */
+.section-1 { 
+background: url(../img/horticulture.png) no-repeat center center; 
+-webkit-background-size: 60%;
+-moz-background-size: 60%; 
+-o-background-size: 60%; 
+background-size: 60%; 
+height: 600px; 
+position: relative; 
+}
+
+/* searchlight */
+
+.section-2 { 
+background: url(../img/light.png) no-repeat center center; 
+-webkit-background-size: 60%; 
+-moz-background-size: 60%; 
+-o-background-size: 60%; 
+background-size: 60%;  
+height: 600px; 
+position: relative; 
+}
+
+
+/* palace of fine art */
+
+.section-3 { 
+background: url(../img/palace_fine_art.png) no-repeat center center; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover; 
+height: 600px; 
+position: relative; 
+}
+
+
+/* fountain of energy */
+.section-4 { 
+background: url(../img/column.png) no-repeat center center; 
+-webkit-background-size: 300px; 
+-moz-background-size: 300px; 
+-o-background-size: 300px; 
+background-size: 300px; 
+height: 600px; 
+}
+
+
+.section-text { 
+position: relative; 
+height: 600px; 
+color: #fff;
+}
+
+.nopadding { 
+padding: 0 !important; 
+margin: 0 !important; 
+}
+
+.thin-sep { 
+height: 1px; 
+background-color: #d7d7d7; 
+width: 50px; 
+margin: 8% auto 0 auto; 
+}
+
+.small-featured-img { 
+height: 200px; 
+width: 100%; 
+position: absolute; 
+bottom: 0; 
+}
+
+.img-01 { 
+background: url(../img/flowers.png) no-repeat center center; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover; 
+}
+
+.img-02 { 
+background: url(../img/diamond.png) no-repeat center center; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover; 
+}
+
+.img-03 { 
+background: url() no-repeat center center; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover; 
+}
+
+.section-text p { 
+padding: 0 60px; 
+text-align: justify; 
+color: #fff;
+}
+
+
+.flex-container { 
+background-color: #fff; 
+padding: 125px 0 35px; 
+text-align: center; 
+}
+
+p.twitter-post { 
+color: #848789; 
+font-size: 16px;  
+font-weight: 300; 
+margin-bottom: 100px; 
+}
+
+
+
+/*=======================================================================
+DISCOVER BUTTON
+=========================================================================*/
+
+
+.discover { 
+background-color: none; 
+padding: 80px 0; 
+text-align: center;
+}
+
+.discover-btn { 
+border: solid 1px #fff; 
+padding: 15px 50px; 
+color: #fff; 
+text-transform: uppercase;
+letter-spacing: 3px;
+font-weight: 400;
+}
+
+.discover-btn:hover, .discover-btn:focus, { 
+border: solid 1px #DAE2F8; 
+}
+
+.enter-btn { 
+border: solid 1px #fff; 
+padding: 15px 50px; 
+color: #000; 
+background: #fff;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-weight: 400;
+}
+
+
+/*=======================================================================
+FOOTER
+=========================================================================*/
+
+footer { 
+background-color: #fff;
+padding: 30px 0;
+bottom: 0;
+z-index: 1000;
+ }
+ 
+footer p { 
+font-size: 13px; 
+margin: 0; }
+
+.footer-leftcol p { 
+text-align: left;
+ }
+ 
+.footer-rightcol p { 
+text-align: right; 
+font-style: italic; 
+margin-top: 10px; 
+}
+
+.bold-16p { 
+font-size: 15px; 
+font-weight: 600;
+ }
+ 
+.footer-midcol { 
+margin-left: auto; 
+margin-right: auto;
+ }
+ 
+.footer-midcol ul { 
+text-align: center; 
+padding: 0; }
+
+.footer-midcol li { 
+list-style: none; 
+display: inline-block; 
+margin-right: 15px; 
+}
+
+.footer-midcol li a { 
+opacity: 1; 
+}
+.footer-midcol li a:hover { 
+opacity: 0.5; 
+}
+ 
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { 
+visibility: hidden; 
+}
+
+.bounceInLeft, .bounceInRight, .fadeInUp { 
+visibility: visible; 
+}
+
+
+/*=======================================================================
+LIST FOR INFO PAGE
+=========================================================================*/
+
+ul#extra {
+   list-style: none;
+   margin: 1em 0;
+   padding: 0; 
+}
+
+ul#extra li {
+   margin: 0;
+   padding: 3px 10px 5px 20px;
+   border-bottom: 1px solid #ccc;
+   color: #7F7D7D; 
+}
+
+ul#extra li:hover {
+   background-color: #ddd; 
+}
+
+
+/*=======================================================================
+NAV BAR
+=========================================================================*/
+
+.navbar {
+ 	margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: "Lato";
+    background-color: #fff;
+	z-index: 9999;
+}
+
+
+.navbar-default .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+	letter-spacing: .2em;
+}
+
+.navbar-default .nav li a:hover {
+    outline: 0;
+    color: #FFA17F;
+    background-color: transparent;
+}
+
+.navbar-default .nav li.active a:hover {
+    color: #FFA17F;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #FFA17F;
+	  background: none;
+	  text-decoration: line-through;
+
+ }
+
+/* brand and link colors */
+
+.navbar-default .navbar-brand {
+  color: #FFA17F;
+  font-weight: 400;
+}
+
+
+
+
+
+
+

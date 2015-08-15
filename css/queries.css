@@ -1,0 +1,70 @@
+/* ==========================================================================
+CSS Queries
+========================================================================== */
+
+@media screen and (max-width:640px) {
+    .discover-btn { 
+	padding: 15px 25px; 
+	font-size: 10px;
+	 }
+	 
+	.main { 
+	padding: 10px; 
+	margin: 10px;
+	 }
+}
+
+
+@media screen and (max-width:1200px) {
+    p{font-size: 14px;\ }
+    .thin-sep { display: none; }
+    .arrow { display: none; }
+    .footer-leftcol p, .footer-rightcol p { text-align: center; }
+    .footer-midcol ul { margin-top: 40px; }
+	.main { padding: 10px; margin: 10px; }
+}
+
+
+@media only screen and (max-width:1200px) {
+    .pullcontainer { width: 100%; text-align: right; padding: 20px 20px 0 0; }
+    .pullcontainer a#pull { display: block; width: 100%; color: #242a2c; }
+	
+}
+
+
+/* PATRONS PAGE */
+
+@-webkit-keyframes loader {
+	0% { background: #ddd; }
+	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+}
+
+@-moz-keyframes loader {
+	0% { background: #ddd; }
+	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+}
+
+@keyframes loader {
+	0% { background: #ddd; }
+	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+}
+
+@media screen and (max-width: 830px) {
+
+	.og-expander h3 { font-size: 32px; }
+	.og-expander p { font-size: 13px; }
+	.og-expander a { font-size: 12px; }
+
+}
+
+@media screen and (max-width: 650px) {
+
+	.og-fullimg { display: none; }
+	.og-details { float: none; width: 100%; }
+	
+}
+
+
